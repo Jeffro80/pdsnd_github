@@ -122,6 +122,7 @@ def load_data(city, month, day):
 
 def main():
     while True:
+    print('\nWelcome to the Bikeshare Analyser.\n')
         city, month, day = get_filters()
         df = load_data(city, month, day)
         

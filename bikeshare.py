@@ -123,6 +123,7 @@ def load_data(city, month, day):
 def main():
     while True:
         # Get data for desired city and desired filters
+        print('\nWelcome to the Bikeshare Analyser.\n')
         city, month, day = get_filters()
         df = load_data(city, month, day)
         
@@ -268,7 +269,7 @@ def user_stats(df):
     try:
         earliest_birth_year = df['Birth Year'].min()
     except KeyError:
-        print('\nBirth year data not available')
+        print('\nBirth year unavailable')
     else:
         print('\nEarliest birth year: {}'.format(int(earliest_birth_year)))
         print('Most recent birth year: {}'.format(int(df['Birth Year'].max())))

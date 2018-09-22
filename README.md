@@ -1,8 +1,8 @@
 ### Date created
-Project crated 22 September 2018
+Project created 22 September 2018
 
 ### Project Title
-Replace the Project Title
+Bikeshare Analysis Software
 
 ### Description
 Describe what your project is about and what it does

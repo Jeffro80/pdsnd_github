@@ -5,7 +5,7 @@ Project created 22 September 2018
 Bikeshare Analysis Software
 
 ### Description
-Describe what your project is about and what it does
+Analysis data from Bikeshare project and filters by month, day and city.
 
 ### Files used
 bikeshare.py

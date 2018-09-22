@@ -122,9 +122,11 @@ def load_data(city, month, day):
 
 def main():
     while True:
+        # Get data for desired city and desired filters
         city, month, day = get_filters()
         df = load_data(city, month, day)
         
+        # Perform analysis on data using filters
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)

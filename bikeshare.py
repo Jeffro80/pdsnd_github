@@ -266,7 +266,7 @@ def user_stats(df):
     try:
         earliest_birth_year = df['Birth Year'].min()
     except KeyError:
-        print('\nBirth year data not available')
+        print('\nBirth year unavailable')
     else:
         print('\nEarliest birth year: {}'.format(int(earliest_birth_year)))
         print('Most recent birth year: {}'.format(int(df['Birth Year'].max())))
